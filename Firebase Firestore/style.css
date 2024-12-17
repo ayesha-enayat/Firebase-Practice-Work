@@ -1,0 +1,16 @@
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    border: 1px solid black;
+    background-color: rgb(242, 242, 119);
+}
+
+.container .loader{
+    display: block;
+}
+.container .main-content {
+    display: none; /* Remove the !important */
+}
+
